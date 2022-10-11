@@ -55,7 +55,9 @@ content:
       - layout: left
         # title: PathOracle - A Deep Learning Based Trip Planner for Daily Commuters
         sub_title: Md. Tareq Mahmood, Mohammed Eunus Ali, Muhammad Aamir Cheema, Syed Md. Mukit Rashid, and Timos Sellis
-        caption: Accepted in ECML-PKDD 2022
+        link: https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_1093.pdf
+        link_text: <mark>Paper Link</mark>
+        caption: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2022)
         # quote: 
         #   Md. Tareq Mahmood, Mohammed Eunus Ali, Muhammad Aamir Cheema, Syed Md. Mukit Rashid, and Timos Sellis
         description: | # this will include new lines to allow paragraphs
@@ -67,29 +69,22 @@ content:
             <img align="center" src="images/learn-popular-trip.png" alt="learn-popular-trip" height="300"/>
           </p>
 
-          Every day millions of users use trip planners (or
-          equivalently journey planners) for smooth and convenient daily
-          commuting using public transport. These trip planners (e.g.,
-          Google Maps trip planner) allow users to search for an optimal
-          means (e.g., fastest or minimum switches) of travelling between
-          two locations in the city using public transport, where a single
-          trip may use a sequence of several modes of transport based
-          on the available transport networks and the timetables of the
-          services. In this paper, we take an orthogonal and a completely
-          novel data-driven approach for a trip planner, that finds the most
-          popular trip from historical trips, given a source, a destination,
-          and user-defined constraints such as time, minimum switches,
-          or preferred modes of transport. To solve the most popular
-          trip and its variants, we propose a multi-stage deep learning
-          architecture PathOracle that consists of two major components:
-          KSNet to generate key stops, and MPTNet to generate popular
-          path trips from a source to a destination passing through the key
-          stops. We also introduce a unique representation of stops using
-          Stop2Vec that considers both the neighborhood and trip popularity 
-          between stops to facilitate accurate path planning. We present
-          an extensive experimental study with a large real-world public
-          transport based commuting Myki dataset of Melbourne city, and
-          demonstrate the effectiveness of our proposed approaches.
+          In this paper, we propose a novel data-driven approach for a 
+          trip planner, that finds the most popular multi-modal trip 
+          using public transport from historical trips, given a source, 
+          a destination, and user-defined constraints such as time, 
+          minimum switches, or preferred modes of transport. To solve 
+          the most popular trip and its variants, we propose a multi-stage 
+          deep learning architecture, PathOracle, that consists of two 
+          major components: KSNet to generate key stops, and MPTNet to 
+          generate popular path trips from a source to a destination 
+          passing through the key stops. We also introduce a unique 
+          representation of stops using Stop2Vec that considers both the 
+          neighborhood and trip popularity between stops to facilitate 
+          accurate path planning. We present an extensive experimental 
+          study with a large real-world public transport based commuting 
+          Myki dataset of Melbourne city, and demonstrate the effectiveness 
+          of our proposed approaches.
 
       - layout: left
         sub_title: Md. Tareq Mahmood and Mohammed Eunus Ali
