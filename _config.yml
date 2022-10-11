@@ -14,6 +14,8 @@ phone: +88 01521 259 878
 # phone_title: Phone (Phone title override)
 website: tareqmahmood.xyz
 # website_title: Web (Website title override)
+cv: tareqmahmood.xyz/files/tareq_cv.pdf
+cv_title: Curriculum vitae
 
 # Dark Mode (true/false/never)
 darkmode: never
