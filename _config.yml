@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   <a href="https://rifatshahriyar.github.io/">Professor Dr. Rifat Shahriyar</a>.
   I have published papers in conferences like ECML-PKDD.
   My primary goal is to contribute in useful and impactful researches.
-  My research interest lies in Graph Neural Network, Spatio-Temporal Deep Learning and Computer Vision.
+  My research interest lies in Graph Neural Network, Spatio-Temporal Deep Learning, Computer Vision and Machine Learning in Databases.
 
 content:
   - title: Research Papers # Title for the section
@@ -63,7 +63,7 @@ content:
         sub_title: Md. Tareq Mahmood, Mohammed Eunus Ali, Muhammad Aamir Cheema, Syed Md. Mukit Rashid, and Timos Sellis
         link: https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_1093.pdf
         link_text: <mark>Paper Link</mark>
-        caption: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2022)
+        caption: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2022) - CORE Rank <b>A</b> - Acceptance Rate 26%
         # quote: 
         #   Md. Tareq Mahmood, Mohammed Eunus Ali, Muhammad Aamir Cheema, Syed Md. Mukit Rashid, and Timos Sellis
         description: | # this will include new lines to allow paragraphs
