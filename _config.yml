@@ -46,8 +46,8 @@ about_profile_image: images/tareq-bw.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi! This is Tareq. I am a Lecturer at Department of Computer Science 
   and Engineering (CSE) of Bangladesh University of Engineering and Technology 
-  (BUET). I am also currently pursuing Masters of Science at CSE, BUET. 
-  I am fortunate to be supervised by 
+  (BUET). I have done my B.Sc. and M.Sc. from from <a href="https://cse.buet.ac.bd/">CSE, BUET</a>. 
+  I am fortunate enough to be supervised by 
   <a href="https://sites.google.com/site/mohammedeunusali/">Professor Dr. Mohammed Eunus Ali</a> and 
   <a href="https://rifatshahriyar.github.io/">Professor Dr. Rifat Shahriyar</a>.
   I have published papers in conferences like ECML-PKDD.
@@ -182,7 +182,7 @@ content:
       - layout: left
         title: Master of Science 
         # sub_title: Lecturer
-        caption: December 2018 - present
+        caption: December 2018 - October 2022
         # link: https://buet.ac.bd
         # quote: >
         #   Short description of the company (optional)
@@ -191,9 +191,7 @@ content:
 
           Bangladesh University of Engineering and Technology 
 
-          All courses completed. Pending thesis.
-
-          CGPA so far: **4.00 out of 4.00**
+          CGPA: **4.00 out of 4.00**
 
       - layout: left
         title: Bachelor of Science 
