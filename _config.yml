@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   <a href="https://rifatshahriyar.github.io/">Professor Dr. Rifat Shahriyar</a>.
   I have published papers in conferences like ECML-PKDD.
   My primary goal is to contribute in useful and impactful researches.
-  My research interest lies in Applied Machine Learning, Graph Neural Network, Spatio-Temporal Deep Learning, and Machine Learning in Databases.
+  My research interest lies in Applied Machine Learning, Graph Learning, Computer Security, Spatio-Temporal Deep Learning, and Data Driven Databases.
 
 content:
   - title: Research Papers # Title for the section
