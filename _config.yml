@@ -44,15 +44,15 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/tareq-bw.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! This is Tareq. I am a Lecturer at Department of Computer Science 
-  and Engineering (CSE) of Bangladesh University of Engineering and Technology 
-  (BUET). I have done my B.Sc. and M.Sc. from from <a href="https://cse.buet.ac.bd/">CSE, BUET</a>. 
-  I am fortunate enough to be supervised by 
+  Hi! I am Tareq. I am a Lecturer at the Department of Computer Science and Engineering (CSE) of 
+  Bangladesh University of Engineering and Technology (BUET). 
+  I have done my B.Sc. and M.Sc. from CSE, BUET. 
+  I am fortunate to be supervised by Professor 
   <a href="https://sites.google.com/site/mohammedeunusali/">Professor Dr. Mohammed Eunus Ali</a> and 
   <a href="https://rifatshahriyar.github.io/">Professor Dr. Rifat Shahriyar</a>.
-  I have published papers in conferences like ECML-PKDD.
-  My primary goal is to contribute in useful and impactful researches.
-  My research interest lies in Applied Machine Learning, Graph Learning, Computer Security, Spatio-Temporal Deep Learning, and Data Driven Databases.
+  I have published papers in conferences like ECML-PKDD. 
+  My primary goal is to contribute to useful and impactful research. 
+  My research interest lies in Applied Machine Learning, Graph Learning, Computer Security, Spatio-Temporal Deep Learning, and Data-Driven Databases.
 
 content:
   - title: Research Papers # Title for the section
