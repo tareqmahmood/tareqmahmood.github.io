@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Md. Tareq Mahmood
-title: Grad Student | Lecturer
+title: Researcher | Educator
 email: tareq [dot] py [at] gmail [dot] com
 # email_title: Email (Email title override)
 phone: +88 01521 259 878
@@ -44,15 +44,15 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/tareq-bw.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! I am Tareq. I am a Lecturer at the Department of Computer Science and Engineering (CSE) of 
+  Hi! Tareq here. I am a Lecturer at the Department of Computer Science and Engineering (CSE) of 
   Bangladesh University of Engineering and Technology (BUET). 
   I have done my B.Sc. and M.Sc. from CSE, BUET. 
-  I am fortunate to be supervised by Professor 
+  I am fortunate to be supervised by  
   <a href="https://sites.google.com/site/mohammedeunusali/">Professor Dr. Mohammed Eunus Ali</a> and 
   <a href="https://rifatshahriyar.github.io/">Professor Dr. Rifat Shahriyar</a>.
   I have published papers in conferences like ECML-PKDD. 
   My primary goal is to contribute to useful and impactful research. 
-  My research interest lies in Applied Machine Learning, Graph Learning, Computer Security, Spatio-Temporal Deep Learning, and Data-Driven Databases.
+  My research interests include Applied Machine Learning, Graph Learning, Computer Security, Spatio-Temporal Deep Learning, and Data-Driven Databases.
 
 content:
   - title: Research Papers # Title for the section
@@ -258,7 +258,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      In my spare time, I like to try new frameworks and linux distros. 
+      In my spare time, I like to try new frameworks, languages and linux distros. 
       I love to build small apps/software/scripts for my own use. 
       Currently I am working intermittently on a researcher-friendly paper reader using ElectronJS.
       
