@@ -259,7 +259,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       * **[Oct 2022]** Defended my Master's thesis. Thanks to my supervisors.
-      * **[Sep 2022]** Attended ECML-PKDD 2022 at Grenoble, France. Met Yann Lecun. 
+      * **[Sep 2022]** Attended ECML-PKDD 2022 in Grenoble, France. ![Met Yann LeCun!](/images/yann-lecun-and-tareq.jpg). 
       * **[Jun 2022]** PathOracle accepted in ECML-PKDD 2022.
 
   - title: A Little More About Me
