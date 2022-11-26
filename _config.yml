@@ -255,6 +255,13 @@ content:
       * Champion Team (BUET Resonance) - Battle of Speed, LFR Challenge, 2015
       * 2nd Placed Team (BUET Novices) - Intra-BUET Programming Contest, 2015
 
+  - title: News
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      * **[Oct 2022]** Defended my Master's thesis. Thanks to my supervisors.
+      * **[Sep 2022]** Attended ECML-PKDD 2022 at Grenoble, France. Met Yann Lecun. 
+      * **[Jun 2022]** PathOracle accepted in ECML-PKDD 2022.
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
