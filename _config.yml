@@ -222,6 +222,8 @@ content:
 
           CGPA: **4.00 out of 4.00**
 
+          Thesis: *Deep Learning-based Approaches for Intelligent Trip Planning Using Public Transport*
+
       - layout: left
         title: Bachelor of Science 
         # sub_title: Lecturer
@@ -235,6 +237,8 @@ content:
           Bangladesh University of Engineering and Technology 
 
           CGPA: **3.99 out of 4.00**
+
+          Thesis: *Learning Indoor Layouts from Simple Point-Clouds*
           
 
   - title: Grants and Fellowships
