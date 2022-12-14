@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   <a href="https://rifatshahriyar.github.io/">Professor Dr. Rifat Shahriyar</a>.
   I have published papers in conferences like ECML-PKDD. 
   My primary goal is to contribute to useful and impactful research. 
-  My research interests include Applied Machine Learning, Graph Learning, Computer Security, Spatio-Temporal Deep Learning, and Data-Driven Databases.
+  My research interests lies in ML systems, data management and security.
 
 content:
   - title: Research Papers # Title for the section
@@ -124,6 +124,8 @@ content:
       - layout: left
         sub_title: Fariha Tabassum Islam, Md. Tareq Mahmood and Mahmuda Naznin
         caption: International Conference on Networking, Systems and Security (NSysS 2022)
+        link: https://doi.org/10.1145/3569551.3569554
+        link_text: <mark>Paper Link</mark>
 
         # quote: 
         #   Md. Mahmudul Hasan, Md. Rafid UI Islam, and Md. Tareq Mahmood
