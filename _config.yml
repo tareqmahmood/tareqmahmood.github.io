@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   <a href="https://rifatshahriyar.github.io/">Professor Dr. Rifat Shahriyar</a>.
   I have published papers in conferences like ECML-PKDD. 
   My primary goal is to contribute to useful and impactful research. 
-  My research interests lies in ML systems, data management and security.
+  My research interests lie in ML systems, data management and security.
 
 content:
   - title: Research Papers # Title for the section
