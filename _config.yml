@@ -184,9 +184,22 @@ content:
     layout: list
     content:
       - layout: left
+        title: Assistant Professor
+        # sub_title: Lecturer
+        caption: December 2022 - present
+        # link: https://buet.ac.bd
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Department of Computer Science and Engineering
+
+          Bangladesh University of Engineering and Technology 
+
+
+      - layout: left
         title: Lecturer 
         # sub_title: Lecturer
-        caption: October 2019 - present
+        caption: October 2019 - December 2022
         # link: https://buet.ac.bd
         # quote: >
         #   Short description of the company (optional)
