@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Md. Tareq Mahmood
-title: Researcher | Educator
-email: tareq [dot] py [at] gmail [dot] com
+title: Researcher | Grad Student | Educator
+email: tareq [at] cs [dot] wisc [dot] edu
 # email_title: Email (Email title override)
 phone: +88 01521 259 878
 # phone_title: Phone (Phone title override)
@@ -44,15 +44,14 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/tareq-bw.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! Tareq here. I am an Assistant Professor at the Department of Computer Science and Engineering (CSE) of 
-  Bangladesh University of Engineering and Technology (BUET). 
+  Hi! Tareq here. I am a first year Ph.D. student at the Computer Science Department of the University of Wisconsin-Madison. 
   I have done my B.Sc. and M.Sc. from CSE, BUET. 
   I am fortunate to be supervised by
   <a href="https://sites.google.com/site/mohammedeunusali/">Professor Dr. Mohammed Eunus Ali</a> and
   <a href="https://rifatshahriyar.github.io/">Professor Dr. Rifat Shahriyar</a>.
-  I am an incoming Ph.D. student at the Computer Science Department of the University of Wisconsin-Madison.
   My primary goal is to contribute to useful and impactful research. 
-  My research interests lie in ML systems, data management and security.
+  My research interests lie in the intersection of ML and systems. 
+  [I am on-leave from CSE@BUET]
 
 content:
   - title: Research Papers # Title for the section
@@ -186,7 +185,7 @@ content:
       - layout: left
         title: Assistant Professor
         # sub_title: Lecturer
-        caption: December 2022 - present
+        caption: December 2022 - [On-leave]
         # link: https://buet.ac.bd
         # quote: >
         #   Short description of the company (optional)
