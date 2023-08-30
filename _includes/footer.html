@@ -6,7 +6,7 @@
       &nbsp;- {{ site.references_title | default: "References on request" }}
     {%- endif -%} -->
 
-    Last Modified: {{site.time}}
+    Last Modified: {{site.time | date: "%-d %B %Y"}}
 
   </p>
 </div>
