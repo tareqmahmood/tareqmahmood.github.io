@@ -62,7 +62,7 @@ content:
       - layout: left
         # title: PathOracle - A Deep Learning Based Trip Planner for Daily Commuters
         sub_title: Md. Tareq Mahmood, Mohammed Eunus Ali, Muhammad Aamir Cheema, Syed Md. Mukit Rashid, and Timos Sellis
-        link: https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_1093.pdf
+        link: https://doi.org/10.1007/978-3-031-26422-1_35
         link_text: <mark>Paper Link</mark>
         caption: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD 2022) - CORE Rank <b>A</b> - Acceptance Rate 26%
         # quote: 
