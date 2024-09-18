@@ -307,10 +307,9 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       In my spare time, I like to try new frameworks, languages and linux distros. 
-      I love to build small apps/software/scripts for my own use. 
-      Currently I am working intermittently on a researcher-friendly paper reader using ElectronJS.
+      I love to build small apps/software/scripts for my own use.
       
-      I recently found out that my Erdős number is 4. 
+      My Erdős number is 4. 
       Paul Erdős - Ronald L. Graham - Jeffrey D. Ullman - Timos K. Sellis - Me.
 
 # Footer
