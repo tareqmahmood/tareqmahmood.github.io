@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareq Mahmood</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+            text-align: left;
+        }
+        body a {
+            color: #b10000;
+            text-decoration: none;
+        }
+        body a:hover {
+            color: #d42626;
+        }
+        header {
+            background: #2C2C2C;
+            color: #FFFFFF;
+            padding: 15px;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+        }
+        nav {
+            margin: 10px 0;
+            text-align: center;
+            background: #f9f9f9;
+        }
+        nav a {
+            text-decoration: none;
+            color: #b10000;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #d42626;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .about-section {
+            display: flex;
+            align-items: flex-start;
+        }
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .about-text {
+            flex: 1;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 5px;
+            background: #2C2C2C;
+            color: #FFFFFF;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Tareq Mahmood</header>
+    <nav>
+        <a href="https://github.com/tareqmahmood">💻 GitHub</a>
+        <a href="https://scholar.google.com/citations?user=45MtzeEAAAAJ">🎓 Scholar</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <div class="about-section">
+                <img src="tareq.jpg" alt="Your Name" class="profile-image">
+                <div class="about-text">
+                    <div class="md">
+                        Hi, **Tareq** here. I am a second-year PhD student in the [Computer Sciences Department](https://cs.wisc.edu) at the [University of Wisconsin-Madison](https://wisc.edu). I am fortunate to work with Professor [Shivaram Venkataraman](https://shivaram.org/). My research interests lie in the intersection of ML and systems. My current research focuses on building efficient distributed ML systems for large-scale GPU clusters.<br><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="md">
+                - **Facultly Member** at [CSE](https://cse.buet.ac.bd/), [BUET](https://buet.ac.bd) (2019-2023)<br>
+                - **Research Assistant** at DataLab@BUET (2018 - 2019)<br>
+            </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <div class="md">
+                - **PhD in CS**, University of Wisconsin-Madison (2023 - Present)<br>
+                - **MSc in CSE**, Bangladesh University of Engineering and Technology (2022)<br>
+                    *Thesis: Deep Learning-based Approaches for Intelligent Trip Planning Using Public Transport*<br>
+                - **BSc in CSE**, Bangladesh University of Engineering and Technology (2018)<br>
+                    *Thesis: Learning Indoor Layouts from Simple Point-Clouds*
+            </div>
+        </section>
+        <section id="research">
+            <h2>Papers</h2>
+            <div class="md">
+                - *[ECML 2022]* PathOracle - A Deep Learning Based Trip Planner for Daily Commuters [[Paper]](https://dl.acm.org/doi/10.1007/978-3-031-26422-1_35)<br>
+                    **Md. Tareq Mahmood**, Mohammed Eunus Ali, Muhammad Aamir Cheema, Syed Md. Mukit Rashid, and Timos Sellis<br>
+                - *[Preprint]* Learning Indoor Layouts from Simple Point-Clouds [[Paper]](https://arxiv.org/abs/2108.03378)<br>
+                    **Md. Tareq Mahmood** and Mohammed Eunus Ali<br>
+                - *[ICBLSP 2018]* Recognition of Bengali Handwritten Digits Using Convolutional Neural Network Architectures [[Paper]](https://ieeexplore.ieee.org/document/8554753)<br>
+                    Md. Mahmudul Hasan, Md. Rafid UI Islam, and **Md. Tareq Mahmood**<br>
+            </div>
+        </section>
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <div class="md">
+                **UW-Madison**<br>
+                - **Teaching Assistant** - Big Data Systems (Spring 25)<br>
+                - **Teaching Assistant** - Intro to Big Data Systems (Fall 24 *Head TA*, Spring 24, Fall 23)<br>
+            </div>
+            <div class="md">
+                **BUET**<br>
+                - **Instructor** - Computer Graphics (Jan 23)<br>
+                - **Instructor** - Mathematical Analysis for Computer Science (Jul 21)<br>
+                - **Instructor** - Microprocessors, Microcontrollers, and Embedded Systems (Jul 22, Jan 22, Jan 21, Jan 19)<br>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Tareq Mahmood. All Rights Reserved.
+    </footer>
+    <script>
+        marked.setOptions({
+            gfm: true,
+            breaks: true
+        });
+
+        document.querySelectorAll('.md').forEach(element => {
+            element.innerHTML = marked.parse(element.innerText);
+        });
+    </script>
+</body>
+</html>
