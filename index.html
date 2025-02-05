@@ -58,12 +58,28 @@
             align-items: flex-start;
             text-align: justify;
         }
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-right: 20px;
+        }
+        .email-image {
+            margin-top: 10px;
+            width: 170px;
+        }
+        #email {
+            margin-top: 10px;
+            font-weight: bold;
+            font-family: monospace;
+            color: #b10000;
+        }
         .profile-image {
             width: 200px;
             height: 200px;
             border-radius: 10px;
             object-fit: cover;
-            margin-right: 20px;
         }
         .about-text {
             flex: 1;
@@ -115,7 +131,10 @@
     <div class="container">
         <section id="about">
             <div class="about-section">
-                <img src="tareq.webp" alt="Your Name" class="profile-image">
+                <div class="profile-container">
+                    <img src="tareq.webp" alt="Tareq Mahmood" class="profile-image">
+                     <div id="email"></div>
+                </div>
                 <div class="about-text">
                     <div class="md">
                         Hi, **Tareq** here. I am a second-year PhD student in the [Computer Sciences Department](https://cs.wisc.edu) at the [University of Wisconsin-Madison](https://wisc.edu). I am fortunate to work with Professor [Shivaram Venkataraman](https://shivaram.org/). My research interests lie in the intersection of ML and systems. My current research focuses on building efficient distributed ML systems for large-scale GPU clusters.<br><br>
@@ -175,6 +194,15 @@
         &copy; 2025 Tareq Mahmood. All Rights Reserved.
     </footer>
     <script>
+        // Let's keep the email address a secret.
+        document.addEventListener("DOMContentLoaded", function() {
+            let encodedUser = "dGFyZXE=";
+            let encodedDomain = "Y3Mud2lzYy5lZHU=";
+            let user = atob(encodedUser);
+            let domain = atob(encodedDomain);
+            document.getElementById("email").innerHTML = user + "@" + domain;
+        });
+
         // Yeah, yeah, I know, I should have used a proper templating engine.
         marked.setOptions({
             gfm: true,
