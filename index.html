@@ -89,7 +89,7 @@
             padding: 15px;
             max-width: 600px;
             font-size: 15px;
-            font-family: cursive;
+            font-family: "Comic Sans MS", cursive, sans-serif;
             border-radius: 5px;
             text-align: center;
         }
@@ -136,8 +136,13 @@
                      <div id="email"></div>
                 </div>
                 <div class="about-text">
-                    <div class="md">
-                        Hi, **Tareq** here. I am a second-year PhD student in the [Department of Computer Sciences](https://cs.wisc.edu) at the [University of Wisconsin-Madison](https://wisc.edu). I am fortunate to work with Professor [Shivaram Venkataraman](https://shivaram.org/). My research interests lie at the intersection of ML and systems. My current research focuses on building efficient distributed ML systems for large-scale GPU clusters.<br><br>
+                    <div class="md" id="about-md">
+                        Hi, **Tareq** here. I am a PHDYEAR-year PhD student 
+                        in the [Department of Computer Sciences](https://cs.wisc.edu) 
+                        at the [University of Wisconsin-Madison](https://wisc.edu). 
+                        I am fortunate to be advised by [Professor Shivaram Venkataraman](https://shivaram.org/). 
+                        My research interests lie at the intersection of ML and systems. 
+                        My current research focuses on building efficient distributed ML systems for large-scale GPU clusters.<br><br>
                     </div>
                 </div>
             </div>
@@ -145,7 +150,8 @@
         <section id="experience">
             <h2>Experience</h2>
             <div class="md">
-                - **Faculty Member** at [CSE](https://cse.buet.ac.bd/), [BUET](https://buet.ac.bd) (2019-2023)<br>
+                - **Graduate Assistant** at [CS](https://cs.wisc.edu/), [UW-Madison](https://wisc.edu) (2023 - Present)<br>
+                - **Faculty Member** at [CSE](https://cse.buet.ac.bd/), [BUET](https://buet.ac.bd) (2019 - 2023)<br>
                 - **Research Assistant** at DataLab@BUET (2018 - 2019)<br>
             </div>
         </section>
@@ -202,6 +208,24 @@
             let domain = atob(encodedDomain);
             document.getElementById("email").innerHTML = user + "@" + domain;
         });
+
+        // Tired of updating the year manually? Not anymore!
+        const ordinals = [
+            "first", "second", "third", 
+            "fourth", "fifth", "sixth", 
+            "seventh", "eighth" // let's hope these two will not be needed
+        ];
+        const startYear = 2023;
+        const startMonth = 9; // September
+        const currentYear = new Date().getFullYear();
+        const currentMonth = new Date().getMonth() + 1; // Months are zero-based
+        let phdYear = currentYear - startYear + 1;
+        if (currentMonth < startMonth) {
+            phdYear -= 1; // Before September, still in the previous academic year
+        }
+        const ordinalYear = ordinals[phdYear - 1];
+        const aboutMd = document.getElementById("about-md");
+        aboutMd.innerHTML = aboutMd.innerText.replace("PHDYEAR", ordinalYear);
 
         // Yeah, yeah, I know, I should have used a proper templating engine.
         marked.setOptions({
