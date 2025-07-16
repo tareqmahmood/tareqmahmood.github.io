@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tareq Mahmood</title>
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Red Hat Display -->
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Fira Code', monospace;
-            font-size: 15px;
+            font-family: 'Red Hat Display', sans-serif;
+            font-size: 18px;
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -71,9 +72,8 @@
             margin-bottom: 15px;
         }
         #email {
-            margin-top: 12px;
             font-weight: normal;
-            font-family: 'Fira Code', monospace;
+            font-family: 'Consolas', monospace;
             color: #1976d2;
             font-weight: 500;
         }
@@ -147,7 +147,7 @@
         <section id="education">
             <h2>Education</h2>
             <ul>
-                <li><strong>PhD in CS</strong>, University of Wisconsin-Madison (2023 - Present)</li>
+                <li><strong>PhD in CS</strong>, University of Wisconsin - Madison (2023 - Present)</li>
                 <li><strong>MSc in CSE</strong>, Bangladesh University of Engineering and Technology (2022)<br>
                     <em>Thesis: Deep Learning-based Approaches for Intelligent Trip Planning Using Public Transport</em></li>
                 <li><strong>BSc in CSE</strong>, Bangladesh University of Engineering and Technology (2018)<br>
@@ -224,6 +224,7 @@
         // Initialize Dark Mode
         function addDarkmodeWidget() {
             const options = {
+                mixColor: '#e1e1e1',
                 time: '0.5s',
                 label: '🌓'
             }
